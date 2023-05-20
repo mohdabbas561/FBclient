@@ -1,0 +1,10 @@
+
+
+.c{
+  padding: 20px;
+  display: flex;
+  margin: 0px;
+  list-style: none;
+  background-color: rgb(82, 91, 211);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

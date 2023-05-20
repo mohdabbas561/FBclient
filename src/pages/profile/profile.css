@@ -1,0 +1,82 @@
+.profile {
+  display: flex;
+}
+
+.profileRight {
+  flex: 9;
+}
+
+.profileCover {
+  height: 320px;
+  position: relative;
+}
+
+.profileCoverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+.edit {
+  /* position: absolute; */
+  /* display: flex; */
+  margin-left: 5%;
+  margin-top: 5px;
+  padding: 2px;
+  color: blue;
+}
+.editDetails {
+  position: absolute;
+  display: flex;
+  margin-left: 50%;
+  margin-top: 25px;
+  color: white;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.editDetails:hover{
+    outline: none;
+}
+.form{
+  text-align: center;
+  background-color: white;
+  max-width: 350px;
+  width: 100%;
+  padding: 90px 100px;
+  position: absolute;
+  top: 55%;
+  left: 37%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.27),0 60px 80px 0 rgba(0, 0, 0, 0.19);
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileInfoDesc {
+  font-weight: 300;
+}
+
+.profileRightBottom {
+  display: flex;
+}

@@ -1,0 +1,91 @@
+.up1{
+margin-bottom: auto;
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 19px 22px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+  text-align: center;
+}
+.edtimg3 {
+  display: inline;
+  height: 160px;
+} 
+.rr{
+  position :static;
+}
+.up1{
+  cursor: pointer;
+}
+.upload2{
+  cursor: pointer;
+}
+
+.editform{
+  text-align: center;
+  background-color: white;
+  max-width: 350px;
+  width: 100%;
+  max-height: 65% ;
+  padding: 90px 100px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.27),0 60px 80px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.profileCoverImgs {
+  width: 83%;
+  height: 150px;
+  margin-top: -10px;
+  margin-left: 5px;
+  object-fit: cover;
+  cursor:pointer;
+}
+.profileUserImgs {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:auto;
+  top: 120px;
+  border: 3px solid white;
+  cursor:pointer
+}

@@ -1,0 +1,112 @@
+ul{
+    padding: 20px;
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    background-color: rgb(82, 91, 211);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  }
+  .image{
+    position: absolute;
+    right: 11%;
+    top : 13%;
+  }
+  html, body {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .image {
+      visibility: hidden;
+    }
+   .SignUpBtn{
+     margin: 60px;
+   }
+  }
+  
+  .li{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .GetStart{
+    background-color: white;
+    color: rgb(82, 91, 211);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .li:hover{
+    color: rgb(82, 91, 211);
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
+  .SignUpBtn{
+    color:white;
+    background-color: rgb(82, 91, 211);
+    cursor: pointer;
+    border: none;
+    padding: 18px 29px;
+    border-radius: 6px;
+    margin-top: 4%;
+    margin-left: 13%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  
+  .SignUpBtn:hover{
+    background-color: rgb(22, 6, 168);
+    transition-duration: 0.4s;
+  }
+  
+  .LoginBtn:hover{
+    background-color: rgb(22, 6, 168);
+    transition-duration: 0.4s;
+  }
+  
+  
+  .LoginBtn {
+    color:white;
+    background-color: rgb(82, 91, 211);
+    cursor: pointer;
+    border: none;
+    padding: 18px 33px;
+    border-radius: 6px;
+    margin-top: 4%;
+    margin-left: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  
+  h1{
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 50px;
+  }
+  
+  h3{
+    color: rgb(82, 91, 211);
+    font-size: 20px;
+    margin-left: 11%;
+  }
+  
+  .footer{
+    background-color:black;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .footer h2{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  }

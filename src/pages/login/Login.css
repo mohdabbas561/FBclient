@@ -1,0 +1,50 @@
+.containerlogin {
+    text-align : center;
+    
+}
+.loginimage{
+    position: absolute;
+    top: 19%;
+    right: 12%;
+}
+.form{
+    display: inline-block;
+    vertical-align: top;
+    max-height: 40%;
+}
+.lbtn{
+    background-color: rgb(22, 6, 168);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.lbtn:hover {
+    opacity: 0.8;
+    transition: all 0.8s ease-in-out;
+}
+
+.txtfieldlogin{
+    width: 75%;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    padding: 20px;
+    outline: none;
+    text-align: center;
+    
+}
+
+.alreadymember{
+    font-size: 15px;
+    color: black;
+    margin-left: -10px;
+}
+
+.href{
+    color: red;
+    text-decoration: none;
+}
