@@ -32,7 +32,7 @@ export default function Login() {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/auth/login",
+      await axios.post("https://facepageback.onrender.com/auth/login",
         { email: email.current.value, password: password.current.value });
       // setError(null)
     } catch (error) {
